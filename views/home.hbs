@@ -1,0 +1,37 @@
+<h1>
+    {{title}}    
+</h1>
+
+<form action="operations" method="get">
+    
+
+    <div class="col-md-9 contact-grid wow fadeInUp animated"  data-wow-delay=".5s">
+        <input type="number" name="num" value="{{num}}">        
+    </div>
+    <div class="clearfix"> </div>
+    <div class="col-md-9 contact-grid wow fadeInUp animated"  data-wow-delay=".5s">
+        <input type="number" name="num1" value="{{num1}}">     
+    </div>    
+    <div class="clearfix"> </div>
+    <div class="col-md-9 contact-grid wow fadeInUp animated"  data-wow-delay=".5s">
+       Result : {{result}}
+    </div>    
+    
+    <br><br>
+    <p>Choose the operation...</p>
+    <div class="checkbox">
+        <label><input name="op" type="radio" value="Add"> Add</label>
+    </div>
+    <div class="checkbox">
+        <label><input name="op" type="radio" value="Subtract"> subtract</label>
+    </div>
+    <div class="checkbox">
+        <label><input name="op" type="radio" value="Multiple"> multiple</label>
+    </div>
+    <div class="checkbox">
+        <label><input name="op" type="radio" value="Divide"> divide</label>
+    </div>
+
+    <input type="submit" value="submit">
+
+</form>
